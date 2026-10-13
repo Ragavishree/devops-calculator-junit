@@ -20,11 +20,6 @@ pipeline {
             }
         }
 
-        stage('dumy') {
-            steps {
-                sh 'exit 1'
-            }
-        }
     }
 
     post {
