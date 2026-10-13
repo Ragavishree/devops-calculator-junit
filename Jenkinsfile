@@ -20,9 +20,9 @@ pipeline {
             }
         }
 
-        stage('Build and Test') {
+        stage('dumy') {
             steps {
-                sh 'mvn -B clean test'
+                sh 'exit 1'
             }
         }
     }
